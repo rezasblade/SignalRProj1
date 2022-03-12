@@ -1,0 +1,84 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@rezasblade 
+binarythistle
+/
+S03E03---Azure-Devops-and-Terraform
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+S03E03---Azure-Devops-and-Terraform/.gitignore
+@binarythistle
+binarythistle Initial Commit
+Latest commit 198eb0c on 5 May 2020
+ History
+ 1 contributor
+43 lines (37 sloc)  388 Bytes
+   
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# Compiled Source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Terraform
+.terraform
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
