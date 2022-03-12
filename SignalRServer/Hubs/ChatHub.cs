@@ -26,6 +26,7 @@ namespace SignaRServer
             {
                 await Clients.All.SendAsync("ReceiveMessage",message);
                 Console.WriteLine("toClient empty, BROADCAST TO ALL CLIENTS:" + "Message" + message);
+                await Clients.Caller.SendAsync("ReceiveMessage","Direct message back");
             }
 
             else
